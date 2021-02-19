@@ -19,7 +19,7 @@ namespace HttpClientDemo.Consola
 
             using (var httpClient = new HttpClient())
             {
-                // Ej 1
+                // Ej 1: PostAsJsonAsync
                 //var persona1 = new Persona() { Nombre = "Felipe" };
                 //var respuesta = await httpClient.PostAsJsonAsync(url, persona1);
                 //if (respuesta.IsSuccessStatusCode)
@@ -28,7 +28,7 @@ namespace HttpClientDemo.Consola
                 //    Console.WriteLine("El id es " + cuerpo);
                 //}
 
-                // Ej 2
+                // Ej 2: PostAsync
                 //var persona2 = new Persona() { Nombre = "Claudia" };
                 //var persona2Serializada = JsonSerializer.Serialize(persona2);
                 //var content = new StringContent(persona2Serializada, Encoding.UTF8, "application/json");
